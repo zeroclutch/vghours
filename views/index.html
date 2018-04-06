@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hours on Vainglory</title>
+    <meta name="description" content="Measure how much time you've spent on Vainglory in game!">
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/a379e029-385e-4097-bc29-c7f7545234b6%2Fcorpus.png?1522983366260">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3347147-11"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-3347147-11');
+    </script>
+    
+    <!-- import stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" type="text/css">
+    <!--link rel="stylesheet" href="../public/style.css" type="text/css"-->
+    
+    <style>
+      *:not(input) {
+        text-align: center;
+      }
+      
+      table {
+        margin: 0 auto;
+      }
+      
+      h2 {
+        margin-bottom: 0 !important;
+      }
+      
+      .searchbar {
+        margin-top: 20px;
+      }
+      
+      section:not(.hero) {
+        padding: 20px !important; 
+      }
+      
+      .control {
+        text-align: center !important;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero is-info is-medium is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Hours on Vainglory <span class="tag is-warning">BETA</span>
+          </h1>
+          <h2 class="subtitle">
+            How many hours have you spent on Vainglory? 
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section columns searchbar">
+      <div class="column is-half is-offset-one-quarter box">
+        <form>
+          <div class="field columns">
+            <div class="control column is-10">
+              <input class="input" type="text" placeholder="Username">
+            </div>
+            <div class="control column is-2">
+              <button class="button is-link">Submit</button>
+            </div>
+          </div>
+        </form>
+        <p class="help is-danger errors">
+        </p>
+      </div>
+    </section>
+    
+    <section class="section columns">
+      <div class="column is-half is-offset-one-quarter box">
+        <p class="info">You have spent</p>
+        <h2 class="title is-2 time">
+          ???
+        </h2>
+        <p class="info">hours on Vainglory</p>
+        <br>
+        <table class="table is-bordered is-hoverable">
+          <thead>
+            <th>Game Mode</th>
+            <th>Matches Played</th>
+          </thead>
+          
+          <tr>
+            <th>Battle Royale</th>
+            <td class="aral"></td>
+          </tr>
+          
+          <tr>
+            <th>Blitz</th>
+            <td class="blitz"></td>
+          </tr>
+          
+          <tr>
+            <th>Casual 3v3</th>
+            <td class="casual"></td>
+          </tr>
+          
+          <tr>
+            <th>Casual 5v5</th>
+            <td class="casual_5v5"></td>
+          </tr>
+          
+          <tr>
+            <th>Ranked</th>
+            <td class="ranked"></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Hours on Vainglory</strong>. <a href="https://glitch.com/edit/#!/vghours">View the source here</a>. Special thanks to 4ever.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js"></script>
+
+  </body>
+</html>
