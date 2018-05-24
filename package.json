@@ -1,7 +1,7 @@
 {
-  "name": "vghours",
-  "version": "1.0.1",
-  "description": "A webapp that counts the number of hours you've spent on Vainglory",
+  "name": "",
+  "version": "",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -14,7 +14,7 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/vghours"
+    "url": "https://glitch.com/edit/#!/vghours-test"
   },
   "license": "MIT",
   "keywords": [
