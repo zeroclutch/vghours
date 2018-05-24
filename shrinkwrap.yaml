@@ -1419,6 +1419,9 @@ packages:
     engines:
       node: '>=0.8.0'
     optional: true
+    os:
+      - darwin
+    requiresBuild: true
     resolution:
       integrity: sha512-WIr7iDkdmdbxu/Gh6eKEZJL6KPE74/5MEsf2whTOFNxbIoIixogroLdKYqB6FDav4Wavh/lZdzzd3b2KxIXC5Q==
   /get-caller-file/1.0.2:
@@ -3401,7 +3404,7 @@ packages:
     resolution:
       integrity: sha1-eC7CHvQDNF+DCoCMo9UTr1YGUgg=
 registry: 'https://registry.npmjs.org/'
-shrinkwrapMinorVersion: 4
+shrinkwrapMinorVersion: 6
 shrinkwrapVersion: 3
 specifiers:
   express: ^4.16.3
